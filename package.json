@@ -1,0 +1,19 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/othmane5/cloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/othmane5/cloud/issues"
+  },
+  "homepage": "https://gitlab.com/othmane5/cloud#readme"
+}
