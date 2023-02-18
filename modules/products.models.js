@@ -5,16 +5,8 @@ const MySchema = mongoose.Schema({
     },
     ProductName : {
         type : String
-    },
-    ProductType : {
-        type : String
-    },    
-    ProductPrice : {
-        type : Float
-    },
-    ProductQuantity : {
-        type : Number
-    },    
+    }  
 });
 
-module.exports = mongoose.model('products',MySchema)
+const Product = mongoose.model('produits',MySchema)
+module.exports = Product;
