@@ -6,6 +6,9 @@ const myR= require("./product/products.routes");
 const app = express();
 const Mprod = require('./modules/products.models');
 
+
+app.use(express.json())
+
 mongoose.set('strictQuery', true);
 
 mongoose.connect(process.env.DB,{
