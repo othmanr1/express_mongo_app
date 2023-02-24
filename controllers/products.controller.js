@@ -14,8 +14,8 @@ exports.create = async (req , res) => {
 
     await prod 
     .save()
-    .then(data => {
-        res.send(data);
+    .then((data) => {
+        res.status(201).send({data});
     })
     .catch(err =>{
         res.status(500).send({

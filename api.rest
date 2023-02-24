@@ -4,8 +4,8 @@ Content-Type: application/json
 
 {
     
-"ProductID" : "ID-15",
-"ProductName" : "Lg"
+"ProductID" : 18,
+ "ProductName" : "Tv"
 
 }
 
